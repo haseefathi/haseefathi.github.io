@@ -132,6 +132,7 @@
 body {
   color: #333;
   font-size: 18px;
+  /* zoom: 80%; */
 }
 
 /* body {
@@ -332,6 +333,7 @@ h3 {
 #intro.section {
   background: url(../../assets/img/introbg.jpg) no-repeat top center/cover;
   position: relative;
+  height: 100vh;
 }
 
 /* #intro.section {
@@ -427,6 +429,11 @@ h3 {
   margin-top: 2rem;
   text-transform: uppercase;
 }
+
+.card-action {
+  border-top: none !important;
+}
+
 
 #experience .card-action {
   background-color: rgba(0, 0, 0, 0.02);
@@ -734,4 +741,5 @@ small {
   #intro.section {
     background-position-x: 30%;
   }
+
 }
